@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>class-13</title>
+</head>
+
+<body>
+    <div class="container mt-3">
+    <h2>Nav Menus</h2>
+    <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Register</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+    </ul>
+  </div>
+    <!--<ul class="nav">
+        <li class="nav-item">List-1</li>
+        <li class="nav-item">List-2</li>
+        <li class="nav-item">List-3</li> 
+    </ul>-->
+
+    <!--   <ul class="nav justify-content-end">-->
+    <!--   <ul class="nav justify-content-center">-->
+    <!--     <ul class="nav flex-column"> -->
+    <!--     <ul class="nav nav-tabs">-->
+    <div class="container mt-3">
+        <h2>Nav Pills</h2>
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Register</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active">Contact</a></li>
+        </ul>
+    </div>
+    <br><br>
+    
+    <div class="container mt-3">
+        <h2>Nav Tabs</h2>
+        <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Register</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active">Contact</a></li>
+        </ul>
+    </div>
+    <br><br>
+    
+ <div class="container mt-3">
+     <h2>Pills with Dropdown</h2>
+     <ul class="nav nav-pills">
+         <li class="nav-item">
+             <a class="nav-link active" href="#">Home</a>
+         </li>
+         <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">About</a>
+             <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="#">Link 1</a></li>
+                 <li><a class="dropdown-item" href="#">Link 2</a></li>
+                 <li><a class="dropdown-item" href="#">Link 3</a></li>
+             </ul>
+         </li>
+         <li class="nav-item"><a href="#" class="nav-link">Register</a></li>
+         <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+         <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+     </ul>
+ </div>
+   <br><br>
+   
+   <div class="container mt-3">
+   <h2>Toggleable / Dynamic Tabs</h2> 
+   <ul class="nav nav-tabs">
+       <li class="nav-item"><a data-bs-toggle="tab" href="#home" class="nav-link">Home</a></li>
+       <li class="nav-item"><a data-bs-toggle="tab" href="#about" class="nav-link">About</a></li>
+       <li class="nav-item"><a data-bs-toggle="tab" href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+   </div>  
+ 
+    <div class="container mt-3 tab-content">
+        <div id="home" class="tab-pane fade">
+            <h3 class="bg-info">This is Home Tab</h3>
+            <p class="lead">International Islamic University Chittagong (IIUC) is one of the top graded Government approved private universities in Bangladesh.
+            <a href="#" class="nav-link">Read More....</a></p>
+            <!--p is a block tag....a is a inline tag ...that's why eta k p er moddhe rakha holo-->
+        </div>
+       <div id="about" class="tab-pane fade">
+            <h3 class="bg-success" >This is About Tab</h3>
+            <p class="lead">To follow a policy of continued Modernization of Knowledge and academic curricula in different disciplines of education so that its students can imbibe the true spirit of religious value as an effective guiding principle in their profession and daily life.
+            <a href="#" class="nav-link">Read More....</a></p>
+        </div>
+       <div id="contact" class="tab-pane">
+            <h3 class="bg-warning">This is Contact Tab</h3>
+            <p class="lead">International Islamic University Chittagong Kumira, Chattogram-4318, Bangladesh IP Tel.: +8809613230505. Tel.: +8802334461900-7. Fax.: +8802334461930.
+            <a href="#" class="nav-link">Read More....</a></p>
+        </div>  
+    </div>
+   <br><br>  
+   
+   
+    <div class="container mt-3">
+        <h2>Toggleable / Dynamic Pills</h2>
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a data-bs-toggle="tab" href="#home1" class="nav-link">Home</a></li>
+            <li class="nav-item"><a data-bs-toggle="tab" href="#about1" class="nav-link">About</a></li>
+            <li class="nav-item"><a data-bs-toggle="tab" href="#contact1" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+    
+    <div class="container mt-3 tab-content">
+        <div id="home1" class="tab-pane fade">
+            <h3 class="bg-info">This is Home Tab</h3>
+            <p class="lead">International Islamic University Chittagong (IIUC) is one of the top graded Government approved private universities in Bangladesh.
+                <a href="#" class="nav-link">Read More....</a>
+            </p>
+        </div>
+        <div id="about1" class="tab-pane fade">
+            <h3 class="bg-success">This is About Tab</h3>
+            <p class="lead">To follow a policy of continued Modernization of Knowledge and academic curricula in different disciplines of education so that its students can imbibe the true spirit of religious value as an effective guiding principle in their profession and daily life.
+                <a href="#" class="nav-link">Read More....</a>
+            </p>
+        </div>
+        <div id="contact1" class="tab-pane">
+            <h3 class="bg-warning">This is Contact Tab</h3>
+            <p class="lead">International Islamic University Chittagong Kumira, Chattogram-4318, Bangladesh IP Tel.: +8809613230505. Tel.: +8802334461900-7. Fax.: +8802334461930.
+                <a href="#" class="nav-link">Read More....</a>
+            </p>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
